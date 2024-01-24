@@ -68,7 +68,7 @@ class CartPage(BasePage):
     # Method to remove all products from the cart
     def remove_all_products_from_cart(self):
         cart_products = self.wait_for_elements(self.CART_PRODUCTS_LOCATOR)
-        expected_product_names = TestData.product_names
+        expected_product_names = TestData.list_of_product_names
 
         for expected_product in expected_product_names:
             product_removed = False
