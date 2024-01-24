@@ -4,7 +4,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from Saucedemo_new_Approach2_E2E_test.base.base_file import BasePage
-from Saucedemo_new_Approach2_E2E_test.config.config_file import TestData
 
 
 # PDPPage class inherits from BasePage
