@@ -37,7 +37,7 @@ class CartPage(BasePage):
         # Retrieve cart products and their names
         cart_products = self.wait_for_elements(self.CART_PRODUCTS_LOCATOR)
         cart_product_names = [product.text for product in cart_products]
-        expected_product_names = TestData.product_names
+        expected_product_names = TestData.list_of_product_names
         assert cart_product_names == expected_product_names, "Products in the cart do not match the expected list"
         print("Products added to the cart successfully!")
 
