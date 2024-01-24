@@ -41,3 +41,4 @@ class PDPPage(BasePage):
         # Click the shopping cart icon to view the cart
         cart_btn_click.click()
 
+
