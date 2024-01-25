@@ -1,0 +1,22 @@
+{
+  "test1": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "test2": {
+    "username": "standard_user123",
+    "password": "secret_sauce123"
+  },
+  "test3": {
+    "username": "standard_user123",
+    "password": "secret_sauce"
+  },
+  "test4": {
+    "username": "standard_user",
+    "password": "secret_sauce123"
+  },
+  "test5": {
+    "username": "",
+    "password": ""
+  }
+}
